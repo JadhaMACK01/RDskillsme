@@ -33958,7 +33958,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-1 {
   font-weight: 700;
   font-style: normal;
-  margin: -43px auto 14px 0;
+  margin: -43px 937px 14px 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-icon-4 {
@@ -33967,13 +33967,26 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     margin-top: -43px;
+    margin-right: 737px;
   }
 }
-
-
+@media (max-width: 991px) {
+  .u-footer .u-text-1 {
+    margin-right: 517px;
+  }
+}
+@media (max-width: 767px) {
+  .u-footer .u-text-1 {
+    margin-right: 337px;
+  }
+}
 @media (max-width: 575px) {
   .u-footer .u-icon-4 {
     margin-right: 85px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-right: 137px;
   }
 }
 
